@@ -21,7 +21,7 @@ public class SwaggerConfig {
     }
 
     private ApiInfo apiInfo() {
-        Contact contact = new Contact("三更草堂", "http://www.sangeng.com", "my@my.com");
+        Contact contact = new Contact("HAPPYBLOG", "http://www.HAPPYBLOG.com", "my@my.com");
         return new ApiInfoBuilder()
                 .title("文档标题1")
                 .description("文档描述2")
